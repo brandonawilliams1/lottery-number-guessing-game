@@ -23,13 +23,11 @@ while(running){
         else{
             attempts++;
             if(guess !== answer){
-                window.alert(`Your Numbers ${guess} do not match the draw ${answer} better luck next time`);
+                window.alert(`Your Numbers ${guess} do not match the draw ${answer} better luck next time! Attempt# ${attempts}`);
                 answer = Math.floor(Math.random() * (maxNum-minNum + 1)) + minNum;
             } else {
                 guess === answer
                 window.alert(`Your Numbers ${guess} match the draw ${answer} you're our lucky winner!!`);
             }
         };
-               
-    
 };

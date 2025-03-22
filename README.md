@@ -1,4 +1,5 @@
 # Number Guessing Game
+https://brandonawilliams1.github.io/lottery-number-guessing-game/
 
 This simple number guessing game is implemented in JavaScript. The game challenges the player to guess a randomly generated 4-digit number between 1000 and 10000. Forward-thinking includes adding a UI for better user experience in the future.
 
